@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: MIT
+
+if BOARD_KEYMINI
+
+config BOARD
+	default "keymini"
+
+config ZMK_KEYBOARD_NAME
+	default "Keymini"
+
+config ZMK_USB
+	default y
+
+config ZMK_KSCAN_MATRIX_POLLING
+	default y
+
+endif # BOARD_KEYMINI
